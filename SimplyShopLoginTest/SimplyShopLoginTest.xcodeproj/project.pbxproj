@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA56642A2991AADB005470D7 /* SimplyShopLoginTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5664292991AADB005470D7 /* SimplyShopLoginTestApp.swift */; };
+		CA56642C2991AADB005470D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA56642B2991AADB005470D7 /* ContentView.swift */; };
+		CA56642E2991AADD005470D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA56642D2991AADD005470D7 /* Assets.xcassets */; };
+		CA5664312991AADD005470D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5664302991AADD005470D7 /* Preview Assets.xcassets */; };
+		CA56643B2991AADD005470D7 /* SimplyShopLoginTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA56643A2991AADD005470D7 /* SimplyShopLoginTestTests.swift */; };
+		CA5664452991AADD005470D7 /* SimplyShopLoginTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5664442991AADD005470D7 /* SimplyShopLoginTestUITests.swift */; };
+		CA5664472991AADD005470D7 /* SimplyShopLoginTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5664462991AADD005470D7 /* SimplyShopLoginTestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA5664372991AADD005470D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA56641E2991AADB005470D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA5664252991AADB005470D7;
+			remoteInfo = SimplyShopLoginTest;
+		};
+		CA5664412991AADD005470D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA56641E2991AADB005470D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA5664252991AADB005470D7;
+			remoteInfo = SimplyShopLoginTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA5664262991AADB005470D7 /* SimplyShopLoginTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplyShopLoginTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5664292991AADB005470D7 /* SimplyShopLoginTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplyShopLoginTestApp.swift; sourceTree = "<group>"; };
+		CA56642B2991AADB005470D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA56642D2991AADD005470D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA5664302991AADD005470D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA5664362991AADD005470D7 /* SimplyShopLoginTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyShopLoginTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA56643A2991AADD005470D7 /* SimplyShopLoginTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplyShopLoginTestTests.swift; sourceTree = "<group>"; };
+		CA5664402991AADD005470D7 /* SimplyShopLoginTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyShopLoginTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5664442991AADD005470D7 /* SimplyShopLoginTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplyShopLoginTestUITests.swift; sourceTree = "<group>"; };
+		CA5664462991AADD005470D7 /* SimplyShopLoginTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplyShopLoginTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA5664232991AADB005470D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5664332991AADD005470D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA56643D2991AADD005470D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA56641D2991AADB005470D7 = {
+			isa = PBXGroup;
+			children = (
+				CA5664282991AADB005470D7 /* SimplyShopLoginTest */,
+				CA5664392991AADD005470D7 /* SimplyShopLoginTestTests */,
+				CA5664432991AADD005470D7 /* SimplyShopLoginTestUITests */,
+				CA5664272991AADB005470D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA5664272991AADB005470D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA5664262991AADB005470D7 /* SimplyShopLoginTest.app */,
+				CA5664362991AADD005470D7 /* SimplyShopLoginTestTests.xctest */,
+				CA5664402991AADD005470D7 /* SimplyShopLoginTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA5664282991AADB005470D7 /* SimplyShopLoginTest */ = {
+			isa = PBXGroup;
+			children = (
+				CA5664292991AADB005470D7 /* SimplyShopLoginTestApp.swift */,
+				CA56642B2991AADB005470D7 /* ContentView.swift */,
+				CA56642D2991AADD005470D7 /* Assets.xcassets */,
+				CA56642F2991AADD005470D7 /* Preview Content */,
+			);
+			path = SimplyShopLoginTest;
+			sourceTree = "<group>";
+		};
+		CA56642F2991AADD005470D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA5664302991AADD005470D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA5664392991AADD005470D7 /* SimplyShopLoginTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA56643A2991AADD005470D7 /* SimplyShopLoginTestTests.swift */,
+			);
+			path = SimplyShopLoginTestTests;
+			sourceTree = "<group>";
+		};
+		CA5664432991AADD005470D7 /* SimplyShopLoginTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA5664442991AADD005470D7 /* SimplyShopLoginTestUITests.swift */,
+				CA5664462991AADD005470D7 /* SimplyShopLoginTestUITestsLaunchTests.swift */,
+			);
+			path = SimplyShopLoginTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA5664252991AADB005470D7 /* SimplyShopLoginTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA56644A2991AADD005470D7 /* Build configuration list for PBXNativeTarget "SimplyShopLoginTest" */;
+			buildPhases = (
+				CA5664222991AADB005470D7 /* Sources */,
+				CA5664232991AADB005470D7 /* Frameworks */,
+				CA5664242991AADB005470D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplyShopLoginTest;
+			productName = SimplyShopLoginTest;
+			productReference = CA5664262991AADB005470D7 /* SimplyShopLoginTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA5664352991AADD005470D7 /* SimplyShopLoginTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA56644D2991AADD005470D7 /* Build configuration list for PBXNativeTarget "SimplyShopLoginTestTests" */;
+			buildPhases = (
+				CA5664322991AADD005470D7 /* Sources */,
+				CA5664332991AADD005470D7 /* Frameworks */,
+				CA5664342991AADD005470D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA5664382991AADD005470D7 /* PBXTargetDependency */,
+			);
+			name = SimplyShopLoginTestTests;
+			productName = SimplyShopLoginTestTests;
+			productReference = CA5664362991AADD005470D7 /* SimplyShopLoginTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA56643F2991AADD005470D7 /* SimplyShopLoginTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA5664502991AADD005470D7 /* Build configuration list for PBXNativeTarget "SimplyShopLoginTestUITests" */;
+			buildPhases = (
+				CA56643C2991AADD005470D7 /* Sources */,
+				CA56643D2991AADD005470D7 /* Frameworks */,
+				CA56643E2991AADD005470D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA5664422991AADD005470D7 /* PBXTargetDependency */,
+			);
+			name = SimplyShopLoginTestUITests;
+			productName = SimplyShopLoginTestUITests;
+			productReference = CA5664402991AADD005470D7 /* SimplyShopLoginTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA56641E2991AADB005470D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CA5664252991AADB005470D7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CA5664352991AADD005470D7 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CA5664252991AADB005470D7;
+					};
+					CA56643F2991AADD005470D7 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CA5664252991AADB005470D7;
+					};
+				};
+			};
+			buildConfigurationList = CA5664212991AADB005470D7 /* Build configuration list for PBXProject "SimplyShopLoginTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA56641D2991AADB005470D7;
+			productRefGroup = CA5664272991AADB005470D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA5664252991AADB005470D7 /* SimplyShopLoginTest */,
+				CA5664352991AADD005470D7 /* SimplyShopLoginTestTests */,
+				CA56643F2991AADD005470D7 /* SimplyShopLoginTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA5664242991AADB005470D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5664312991AADD005470D7 /* Preview Assets.xcassets in Resources */,
+				CA56642E2991AADD005470D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5664342991AADD005470D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA56643E2991AADD005470D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA5664222991AADB005470D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA56642C2991AADB005470D7 /* ContentView.swift in Sources */,
+				CA56642A2991AADB005470D7 /* SimplyShopLoginTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5664322991AADD005470D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA56643B2991AADD005470D7 /* SimplyShopLoginTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA56643C2991AADD005470D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5664472991AADD005470D7 /* SimplyShopLoginTestUITestsLaunchTests.swift in Sources */,
+				CA5664452991AADD005470D7 /* SimplyShopLoginTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA5664382991AADD005470D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA5664252991AADB005470D7 /* SimplyShopLoginTest */;
+			targetProxy = CA5664372991AADD005470D7 /* PBXContainerItemProxy */;
+		};
+		CA5664422991AADD005470D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA5664252991AADB005470D7 /* SimplyShopLoginTest */;
+			targetProxy = CA5664412991AADD005470D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA5664482991AADD005470D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA5664492991AADD005470D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA56644B2991AADD005470D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimplyShopLoginTest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dawson-Lu.SimplyShopLoginTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA56644C2991AADD005470D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimplyShopLoginTest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dawson-Lu.SimplyShopLoginTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA56644E2991AADD005470D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dawson-Lu.SimplyShopLoginTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplyShopLoginTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimplyShopLoginTest";
+			};
+			name = Debug;
+		};
+		CA56644F2991AADD005470D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dawson-Lu.SimplyShopLoginTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplyShopLoginTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimplyShopLoginTest";
+			};
+			name = Release;
+		};
+		CA5664512991AADD005470D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dawson-Lu.SimplyShopLoginTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimplyShopLoginTest;
+			};
+			name = Debug;
+		};
+		CA5664522991AADD005470D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dawson-Lu.SimplyShopLoginTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimplyShopLoginTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA5664212991AADB005470D7 /* Build configuration list for PBXProject "SimplyShopLoginTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5664482991AADD005470D7 /* Debug */,
+				CA5664492991AADD005470D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA56644A2991AADD005470D7 /* Build configuration list for PBXNativeTarget "SimplyShopLoginTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA56644B2991AADD005470D7 /* Debug */,
+				CA56644C2991AADD005470D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA56644D2991AADD005470D7 /* Build configuration list for PBXNativeTarget "SimplyShopLoginTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA56644E2991AADD005470D7 /* Debug */,
+				CA56644F2991AADD005470D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA5664502991AADD005470D7 /* Build configuration list for PBXNativeTarget "SimplyShopLoginTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5664512991AADD005470D7 /* Debug */,
+				CA5664522991AADD005470D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA56641E2991AADB005470D7 /* Project object */;
+}
