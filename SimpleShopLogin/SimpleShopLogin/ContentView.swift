@@ -31,19 +31,30 @@ struct ContentView: View {
                         .font(.largeTitle)
                         .bold()
                         .padding()
+                    
                     TextField("Username", text: $username)
                         .padding()
                         .frame(width: 300, height: 50)
                         .background(Color.black.opacity(0.05))
                         .cornerRadius(10)
                         .border(.red, width: CGFloat(wrongUsername))
+                    
                     SecureField("Password", text: $password)
                         .padding()
                         .frame(width: 300, height: 50)
                         .background(Color.black.opacity(0.05))
                         .cornerRadius(10)
                         .border(.red, width: CGFloat(wrongPassword))
-                    Button("Login") {
+                    
+                    Button("Sign up") {
+                        authenticateUser(username: username, password: password)
+                    }
+                    .foregroundColor(.white)
+                    .frame(width: 300, height: 50)
+                    .background(Color.blue)
+                    .cornerRadius(10)
+                    
+                    Button("Sign In") {
                         authenticateUser(username: username, password: password)
                     }
                     .foregroundColor(.white)
